@@ -31,6 +31,32 @@ csv_files/
     file3.csv
 ```
 
+Each CSV file has the following columns:
+
+```sh
+id, name, pos, salary
+```
+
+To extract data from the "NameOfColumn" column of each CSV file and combine them into a single CSV file called output.csv without spaces in the column names, you would:
+
+Open the csv_column_data_extractor.py file in a text editor.
+Change the folder_path variable to "/path/to/csv_files" (replace with the actual path to the csv_files folder on your computer).
+Change the output_file_path variable to "/path/to/output.csv" (replace with the actual path and name of the output file you want to create on your computer).
+Save the changes to the csvreader.py file.
+Open a terminal or command prompt and navigate to the folder containing the csvreader.py file.
+Type python csvreader.py and press Enter.
+Wait for the program to finish running. The output CSV file will be created in the location you specified.
+
+
+<b><h3>License</h3></b>
+This program is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+
+
+
+
 <b><h3>NOTE:</h3></b>
 If you have any issue you can open a thread in issues.
 Thanks!
