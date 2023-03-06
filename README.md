@@ -1,4 +1,4 @@
-# FiveM-CarSqlQueryMaker
+# CsvColumnReader
 
 <h3>CSV Column Data Extractor</h3>
 The CSV Column Data Extractor is a Python program that reads multiple CSV files from a folder, copies data from a column named "pos", and pastes it in a new CSV file without spaces. This program can be used to extract data from a specific column of multiple CSV files and combine them into a single CSV file.
@@ -8,9 +8,10 @@ The CSV Column Data Extractor is a Python program that reads multiple CSV files 
 - csv module (comes with Python)
 
 <h4>Installation</h4>
+
 1. Clone the repository or download the ZIP file and extract its contents to a folder on your computer
 2. Make sure you have Python 3.x installed on your computer. You can download it from the official website: https://www.python.org/downloads/
-4. No additional installation is required for this program
+3. No additional installation is required for this program
 
 <h4>How to use</h4>
 
