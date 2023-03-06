@@ -15,12 +15,20 @@ The CSV Column Data Extractor is a Python program that reads multiple CSV files 
 
 <h4>How to use</h4>
 
-1. Clone the code to your system
-2. Edit the carname.py file
-3. On line no 6, you can change the directory of carpack stream folder
-4. On line no 7, you can change the number of queries you want to write
-6. Save and close the file
-7. Open the .start file and your query will be written in the file.sql file
+1. Put all the CSV files you want to extract data from in a folder.
+2. Open the csvreader.py file in a text editor or VSCode.
+3. Modify the folder_path and output_file_path variables in the program to match the folder containing your CSV files and the path and name of the output file you want to create.
+4. Run the program by typing python csvreader.py in your terminal or command prompt.
+5. The program will extract data from the "NameOfColumn" column of all the CSV files in the folder and combine them into a single CSV file without spaces in the column names.
+
+<h4>Example</h4>
+Suppose you have a folder called csv_files containing the following CSV files:
+``
+csv_files/
+    file1.csv
+    file2.csv
+    file3.csv
+``
 
 <b><h3>NOTE:</h3></b>
 If you have any issue you can open a thread in issues.
